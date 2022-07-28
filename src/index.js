@@ -7,8 +7,8 @@ import axios from 'axios';
 import store from './redux/store';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Auth0Provider } from '@auth0/auth0-react';
-
-axios.defaults.baseURL = "http://localhost:3001" ;
+axios.defaults.baseURL = "https://misnotas-backend.herokuapp.com/"
+// axios.defaults.baseURL = "http://localhost:3001" ;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
