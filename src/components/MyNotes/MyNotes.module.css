@@ -1,0 +1,47 @@
+.onlyActive{
+    display: inline-block;
+    position: absolute;
+    left:38rem;
+    top: 5rem;
+    font-weight: 600;
+}
+.select{
+    background-color: grey;
+}
+.maxWidth{
+    max-width: 10em;
+    max-height: 15px;
+    width: 10em;
+    overflow: hidden;
+}
+.container{
+    width:80%;
+    margin: 4rem auto;
+    min-height: 70vh;
+    position:relative;
+}
+.container table{
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        width:100%;
+    }
+}
+.container div{
+    width:3vh;
+    min-width: max-content;
+}
+.container div div img{
+    padding-top: 5px;
+    width:6vh;
+    height: 5vh;
+}
+.container div div h2{
+    display:inline;
+}
+.container div div{
+    display: flex;
+    margin-bottom: 5rem;
+}
